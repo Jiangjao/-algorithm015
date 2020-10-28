@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: bool
         """
         if not nums:
-            return False
+            return True
         length = len(nums)
         ans = 0
         for i in range(length):
@@ -14,3 +14,5 @@ class Solution(object):
         if ans >= length -1:
             return True
         return False
+	
+	
